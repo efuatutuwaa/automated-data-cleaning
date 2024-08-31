@@ -1,7 +1,8 @@
 # automated-data-cleaning
 
 Overview
-This repository contains a MySQL stored procedure, event scheduler, and trigger designed to automate the process of copying, cleaning, and standardizing data from the us_household_income_backup table into a new table called us_household_income_cleaned. The goal of this process is to maintain a clean and standardized dataset for analysis by removing duplicates and correcting inconsistencies in the data.
+
+- This repository contains a MySQL stored procedure, event scheduler, and trigger designed to automate the process of copying, cleaning, and standardizing data from the us_household_income_backup table into a new table called us_household_income_cleaned. The goal of this process is to maintain a clean and standardized dataset for analysis by removing duplicates and correcting inconsistencies in the data.
 
 Files in the Repository 
 - automated_data_cleaning.sql : This SQL script includes the following components:
